@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Wifi status (for mac)",
   "main": "index.js",
+  "bin": "./cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/finnp/wifi-status/issues"
   },
-  "homepage": "https://github.com/finnp/wifi-status"
+  "homepage": "https://github.com/finnp/wifi-status",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "minimist": "^1.1.1",
+    "split": "^0.3.3"
+  }
 }
