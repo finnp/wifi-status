@@ -2,7 +2,6 @@
   "name": "wifi-status",
   "version": "1.0.0",
   "description": "Wifi status (for mac)",
-  "main": "index.js",
   "bin": "./cli.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -25,5 +24,6 @@
     "chalk": "^1.0.0",
     "minimist": "^1.1.1",
     "split": "^0.3.3"
-  }
+  },
+  "preferGlobal": true
 }
