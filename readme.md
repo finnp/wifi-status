@@ -11,3 +11,6 @@ KD WLAN Hotspot+ 🔓
 WiFi Signal:	 [|||                ] 20
 WiFi Noise:	 [                   ] 8
 ```
+
+There is a `--live` option for continous bars, useful for running around
+to find a better reception.

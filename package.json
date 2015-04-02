@@ -3,6 +3,7 @@
   "version": "1.1.0",
   "description": "Wifi status (for mac)",
   "bin": "./cli.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,6 +24,7 @@
   "dependencies": {
     "chalk": "^1.0.0",
     "minimist": "^1.1.1",
+    "single-line-log": "^0.4.1",
     "split": "^0.3.3"
   },
   "preferGlobal": true
