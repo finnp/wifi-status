@@ -1,6 +1,6 @@
 {
   "name": "wifi-status",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Wifi status (for mac)",
   "bin": "./cli.js",
   "main": "index.js",
